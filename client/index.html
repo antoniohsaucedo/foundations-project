@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Post Brand Collaboration</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="rectangle1">
+      <div class="square">
+        <img src="InfluencerMap.png" alt="Logo" />
+      </div>
+
+      <ul>
+        <li><a href="createpost.html">Create Post</a></li>
+
+        <li><a href="profile.html">My Profile</a></li>
+
+        <li><a class="active" href="index.html">Collaborations</a></li>
+      </ul>
+    </div>
+
+    <br />
+
+    <div class="header">
+      <header>
+        <h1>Post a brand collaboration</h1>
+      </header>
+    </div>
+    <main>
+
+
+      <section id="posts-container"></section>
+      <form>
+        <h4>Brand Image</h4>
+
+        <input type="url" id="img" laceholder="Paste an image URL"/>
+
+        <br />
+
+        <h4>Brand Name</h4>
+        <input type="text" id="title" placeholder="Enter brand name"/>
+
+        <h4>Website</h4>
+        <input type="text" id="Website" placeholder="Enter website"/>
+
+        <br />
+        <h4>Description</h4>
+        <textarea id="description" name="description" rows="6" cols="50">"Add a small description of the brand collaboration requirements"
+      </textarea>
+
+        <section id="platform-container">
+          <br />
+          <h4>Social Media Platform</h4>
+          <div id="checkbox-container">
+            <label for="TikTok"
+              >TikTok
+              <input
+                type="checkbox"
+                name="platform"
+                value="TikTok"
+                id="TikTok"
+              />
+            </label>
+
+            <label for="Youtube"
+              >Youtube
+              <input
+                type="checkbox"
+                name="platform"
+                value="Youtube"
+                id="Youtube"
+              />
+            </label>
+
+            <label for="TikTok"
+              >Snapchat
+              <input
+                type="checkbox"
+                name="platform"
+                value="Snapchat"
+                id="Snapchat"
+              />
+            </label>
+
+            <label for="Instagram"
+              >Instagram
+              <input
+                type="checkbox"
+                name="platform"
+                value="Instagram"
+                id="Instagram"
+              />
+            </label>
+          </div>
+        </section>
+
+        <br />
+        <h4>Followers Required</h4>
+        <input
+          type="number"
+          id="followers"
+          placeholder="Number of followers required"
+        />
+
+        <br />
+        <h4>Compensation</h4>
+        <input
+          type="number"
+          id="compensation"
+          placeholder="Add Compensation $"
+        />
+        <br />
+        <button>post now</button>
+        <br />
+      </form>
+
+    
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
