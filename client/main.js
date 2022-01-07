@@ -4,7 +4,7 @@ const form = document.querySelector('form')
 const baseURL = `http://localhost:4004/api/posts`
 
 const postsCallback = ({ data: posts }) => displayPosts(posts)
-const errCallback = err => console.log(err.response.data)
+const errCallback = err => console.log(err.response?.data)
 
 const getAllPosts = () => axios.get(baseURL).then(postsCallback).catch(errCallback)
 const createPost = body => axios.post(baseURL, body).then(postsCallback).catch(errCallback)
@@ -17,7 +17,6 @@ function submitHandler(e) {
     let imageURL = document.querySelector('#img')
     let title = document.querySelector('#title')
     let description = document.querySelector('#description')
-    let mediaPlatform = document.querySelectorAll('#mediaPlatform')
     let platform = document.querySelectorAll('input[type=checkbox]:checked')
     let followers = document.querySelector('#followers')
     console.log(platform)
@@ -73,7 +72,9 @@ function createPostCard(post) {
     <p class="post-description">${post.description}</p>
 
     <h4 class="post-titles">Social Media Platform</h4>
-    <ul class="post-platform">${post.platform.join(" - ")}</ul>
+    <ul class="post-platform">${post?.platform?.join(" - ")}</ul>
+
+    
     <h4 class="post-titles">Followers Required</h4>
     <p class="post-followers">${post.followers}</p>
     <h4 class="post-titles">Compensation</h4>
@@ -89,23 +90,6 @@ function createPostCard(post) {
 
     postsContainer.appendChild(postCard)
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
