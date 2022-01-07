@@ -8,7 +8,7 @@ module.exports = {
 
 
     
-  
+
     createPost: (req, res) => {
         const { imageURL, title, description, platform, followers, compensation,  } = req.body
         

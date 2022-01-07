@@ -3,7 +3,7 @@
    "imageURL" : "https://cdn.britannica.com/50/213250-050-02322AA8/Nike-logo.jpg",
     "title": "Nike Collaboration",
     "description": "At Nike we are looking for a US-based content creator to collaborate. Nike, Inc. is an American multinational corporation that is engaged in the design, development, manufacturing, and worldwide marketing and sales of footwear, apparel, equipment, accessories, and services. The company is headquartered near Beaverton, Oregon, in the Portland metropolitan area.",
-    "platform":"Tiktok",
+    "platform":["Tiktok"],
     "followers": "100000",
     "compensation": 1000
   },
@@ -12,7 +12,7 @@
     "imageURL" : "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2013/7/15/1373885517743/Aristos-Salt-Lake-City--002.jpg?width=300&quality=45&auto=format&fit=max&dpr=2&s=6e3ee363bbbdae42a5462fc66bc49001",
     "title": "Aristo's Greek Restaurant",
     "description": "Aristo's Greek Restaurant located in Salt Lake City is looking for a local influencer to collaborate next month. We ",
-    "platform":"youtube",
+    "platform":["youtube"],
     "followers": "100000",
     "compensation": 100
   },
@@ -21,7 +21,7 @@
     "imageURL" : "https://cdn.searchenginejournal.com/wp-content/uploads/2019/07/shutterstock_1145953094-1520x800.png",
     "title": "FashonNova",
     "description": "FashonNova is looking for a US-based creator to collaborate on a new brand campaign. Your target audience is females from 17-30 years old. Fashion Nova is an American fast fashion retail company. The company operates online and has five brick-and-mortar locations. ",
-    "platform":"Tiktok",
+    "platform":["Tiktok"],
     "followers": "100,000",
     
     "compensation": 1500
@@ -31,7 +31,7 @@
     "imageURL" : "http://www.tropicana.com/assets/images/twitter/trop-share.jpg",
     "title": "Tropicana",
     "description": "At Tropicana we are looking for a few creators to collaborate on a new brand campaign. The influencer must be located in US.Tropicana Products, Inc. is the name of a former American multinational fruit-based beverages company. It was founded in 1947 by Anthony T. Rossi in Bradenton, Florida. ",
-    "platform":"tiktok",
+    "platform":["tiktok"],
     "followers": "100000",
     "compensation": 500
   },
@@ -41,7 +41,7 @@
     "imageURL" : "https://www.flexispot.com/media/catalog/category/flexispot_standing_desk_riser_banner_20200812.jpg",
     "title": "FlexiSpot",
     "description": "We are looking or a US-based influencer to help us promote our products. We offer a wide range of ergonomic products for your home and office. All products are carefully engineered using the best materials to boost health and performance. ",
-    "platform":"tiktok",
+    "platform":["tiktok"],
     "followers": "100000",
     "compensation": 500
   },
@@ -51,7 +51,7 @@
     "imageURL" : "https://www.adobe.com/content/dam/cc/us/en/products/special-offers/edu-make-the-leap-750x390-pod.jpg.img.jpg",
     "title": "Adobe",
     "description": "Adobe is looking for designer influencers to collaborate. Adobe Inc., originally called Adobe Systems Incorporated, is an American multinational computer software company",
-    "platform":"tiktok",
+    "platform":["tiktok"],
     "followers": "1000000",
     "compensation": 2000
   }
