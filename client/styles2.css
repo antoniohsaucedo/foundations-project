@@ -10,7 +10,9 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
 }
 
 li {
@@ -41,7 +43,7 @@ li a:hover:not(.active) {
   display: inline-block;
   position: fixed;
   background-color: rgb(255, 255, 255);
- 
+  
 }
 
 .square img {
@@ -52,21 +54,25 @@ li a:hover:not(.active) {
   margin-right: 15px;
   margin-bottom: 15px;
   margin-top: 15px;
+  border-width: 0px;
 }
 
 
 body {
   background-color: rgb(227, 227, 227);
+  
 }
 
 .header {
   height: 100px;
-  margin-top: 60px;
+
   justify-content: left; 
   text-align: center;
   background-color: #000000;
-  padding-top: 40px; 
+  padding-top: 50px; 
+  
 }
+
 .form-title {
   font-size: 16px;
   text-transform: uppercase; 
@@ -79,26 +85,23 @@ body {
 }
 
 .header h1 {
-  font-size: 16px;
-  color:#888888;
-  margin-top: 50px;
+  
   justify-content: center; 
   color: rgb(255, 255, 255);
   height: 0px;
   font-size:x-large;
-    margin-top: 15px;
-  margin-bottom: 15px;
+    
 }
 
 
 main {
   display: flex; 
   justify-content: center;
+  
 }
 
 form {
-  
-  width: 360px;
+  width: 800px;
   height: auto;
   background-color: rgb(255, 255, 255);
   position: relative;
@@ -111,13 +114,11 @@ form {
   border-top-right-radius: 15px;
   margin: 20px;
   padding: 15px;
-}
-
-#posts-container {
-  width: 1080px;
-  height: 600px;
+  
+  
   
 }
+
 
 button {
   background-color: #57A4FF;
@@ -130,6 +131,7 @@ button {
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 10px;
+  
 }
 
 
@@ -180,9 +182,9 @@ textarea {
   background-color: rgb(240, 240, 240);
   margin-top: 15px;
   margin-bottom: 15px;
+
 }
 textarea {
-  color: #656565;
     max-width: 100%;
     line-height: 1.5;
     border-radius: 15px;
@@ -190,94 +192,9 @@ textarea {
     padding: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
-}
 
-
-
-
-#platform-container {
-  width: 100%;
-
-}
-
-
-#posts-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: left;
-  
-}
-
-.post-cover {
-  width: 800px;
-  height: auto;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-}
-
-.post-card {
-  background-color: white;
-  width: 800px;
-  margin: 20px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  border-radius: 12px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-
-.post-title {
-  font-size: 22px;
-  margin: 5px 0;
- 
-}
-
-
-.post-titles {
-  font-size: 18px;
-  margin: 5px 0;
-}
-
-.post-rating {
-  font-size: 15px;
-  margin: 5px 0;
-}
-
-.btns-container {
-  width: 100%;
-  padding: 10px;
-  justify-content: space-evenly;
-  margin: 5px, 0;
-padding: 15px;
-}
-
-.btns-container > button {
-  margin: 5px, 0;
-  padding: 10px;
-}
+  }
 
 button:hover { 
   background-color: #317dd8;
-}
-
-.card {
-  
-  width: 800px;
-  height: auto;
-  background-color: rgb(255, 255, 255);
-  
-  position: absolute;
-  
-  align-items: center;
-  font-size: 18px;
-
-
-  border-radius: 12px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  margin: 20px;
-  padding: 15px;
 }

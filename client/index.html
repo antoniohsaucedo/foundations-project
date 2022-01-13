@@ -13,6 +13,7 @@
 
     <title>Post Brand Collaboration</title>
     <link rel="stylesheet" href="styles.css" />
+    
   </head>
   <body>
     <div class="rectangle1">
@@ -39,30 +40,29 @@
     <main>
       <section id="posts-container"></section>
       <form>
-        <h4>Brand Image</h4>
+        <h4 class="form-title">Brand Image</h4>
 
-        <input type="url" id="img" laceholder="Paste an image URL" />
+        <input type="url" id="img" placeholder="Paste an image URL" />
 
         <br />
 
-        <h4>Brand Name</h4>
+        <h4 class="form-title">Brand Name</h4>
         <input type="text" id="title" placeholder="Enter brand name" />
 
         
 
         <br />
-        <h4>Description</h4>
+        <h4 class="form-title">Description</h4>
         <textarea id="description" name="description" rows="6" cols="50">
 "Add a small description of the brand collaboration requirements"
       </textarea
         >
 
         <section id="platform-container">
-          <br />
-          <h4>Social Media Platform</h4>
+          
+          <h4 class="form-title">Social Media Platform</h4> 
           <div id="checkbox-container">
-            <label for="TikTok"
-              >TikTok
+            <label for="TikTok">TikTok
               <input
                 type="checkbox"
                 name="platform"
@@ -104,7 +104,7 @@
         </section>
 
         <br />
-        <h4>Followers Required</h4>
+        <h4 class="form-title">Followers Required</h4>
         <input
           type="number"
           id="followers"
@@ -112,18 +112,18 @@
         />
 
         <br />
-        <h4>Compensation</h4>
+        <h4 class="form-title">Compensation</h4>
         <input
           type="number"
           id="compensation"
           placeholder="Add Compensation $"
         />
         <br />
+        <i class="fas fa-heart"></i>
         <button>post now</button>
         <br />
       </form>
     </main>
-
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
   </body>

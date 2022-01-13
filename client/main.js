@@ -82,7 +82,6 @@ function createPostCard(post) {
 
     <div class="btns-container">
       
-    <button onclick="updatePost(${post.id}, 'plus')">Edit</button>
     </div>
     <button onclick="deletePost(${post.id})">delete</button>
     `
